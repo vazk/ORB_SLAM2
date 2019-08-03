@@ -23,6 +23,7 @@
 
 #include<opencv2/core/core.hpp>
 #include<opencv2/features2d/features2d.hpp>
+#include<opencv2/imgproc/types_c.h>
 
 #include"ORBmatcher.h"
 #include"FrameDrawer.h"
@@ -36,6 +37,9 @@
 #include<iostream>
 
 #include<mutex>
+#include<unistd.h>
+#include<stdio.h>
+#include<stdlib.h>
 
 
 using namespace std;
